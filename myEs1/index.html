@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="js/app.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <!-- ESERCIZIO 1 -->
+    <section>
+      <h1>Esercizio 1 - Tabellina</h1>
+      <h2>Descrizione</h2>
+      <p>Inserire un numero e visualizzare la sua tabellina da 1 a 10</p>
+      <input id="input" type="text" name="tabellina" value="">
+      <button id="btntab" type="button" name="button" onclick="esercizio1()">Calcola</button>
+      <div id="p_tabelline">
+      </div>
+    </section>
+
+    <!-- ESERCIZIO 2 -->
+    <section>
+      <h1>Esercizio 2 - Invertire una stringa</h1>
+      <h2>Descrizione</h2>
+      <p>Inserire una stringa e visualizzare ogni carattere, poi invertire i caratteri della stringa.</p>
+      <input id='inp_es2' type="text" name="" value="" onkeyup="esercizio2()">
+      <button id="btn_es2" type="button" name="button" onclick="invert()" >Inverti</button>
+      <div id="div_es2" class="">
+      </div>
+    </section>
+
+    <!-- ESERCIZIO 3 -->
+    <section>
+      <h1>Esercizio 3 - Scorrere e fermare una stringa</h1>
+      <h2>Descrizione</h2>
+      <p>Inserire una stringa e farla scorrere/fermare quando il relativo bottone viene premuto</p>
+      <input id="inp_es3" type="text" name="" value="">
+      <button type="button" name="button" onclick="esercizio3('scorri')">Scorri</button>
+      <button type="button" name="button" onclick="esercizio3('ferma')">Ferma</button>
+      <div id="es3" class="">
+      </div>
+    </section>
+
+    <!-- ESECTIZIO 4 -->
+    <section>
+      <h1>Esercizio 4 - Tabella 10x10 con un numero diverso da 1 a 100</h1>
+      <h2>Descrizione</h2>
+      <p>Creare una table 10x10 con un numero diverso da 1 a 100, mostrare in console log il tempo impiegato da js</p>
+      <button type="button" name="button" onclick="table()">Crea tabella</button>
+      <div id="tabella" class="">
+      </div>
+    </section>
+
+    <!-- ESERCIZIO 5 -->
+
+    <section>
+      <h1>Esercizio 5 - Web safe color</h1>
+      <h2>Descrizione</h2>
+      <p>Premere un bottone e creare un bottone  per ogni Safe color e cliccando su uno di quei bottoni colorare il background</p>
+      <button type="button" name="button" onclick="getRndColor()">Crea colori</button>
+      <div id="colorBtn" class="">
+      </div>
+    </section>
+
+    <!-- ESERCIZIO 6 -->
+
+    <section>
+      <h1>Esercizio 6 </h1>
+      <h2>Descrizione</h2>
+      <p>
+        Usare un Api e visualizzare tutti gli stati che usano l'euro.Stampare in pagina quanti usano l'euro e inserendo il nome dello stato ci dirà se usa l'euro o meno
+      </p>
+      <button type="button" name="button" onclick="getAjax()">Usa Api</button>
+      <input id="paese" type="text" name="" value="">
+      <button type="button" name="button" onclick="clickSearch()">Cerca</button>
+      <div id="euro" class="">
+      </div>
+    </section>
+  </body>
+  </html>
